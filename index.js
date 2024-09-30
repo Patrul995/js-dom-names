@@ -11,7 +11,11 @@ const showNames = (arr) => {
 };
 
 showNames(names)
-   
+
+li.addEventListener('click', () => {
+    
+})
+
 document.getElementById('check-btn').addEventListener('click', () => {
     const listItems = document.querySelectorAll('#names-list li')
     
